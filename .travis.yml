@@ -11,5 +11,5 @@ before_install:
   - sudo apt-get update
   - sudo apt-get install grails-2.1.1
 
-script: ./grailsw refresh-dependencies
-     && ./grailsw test-app
+script: grails refresh-dependencies
+     && grails test-app
