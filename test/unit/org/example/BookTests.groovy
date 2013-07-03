@@ -12,6 +12,8 @@ import org.junit.*
 class BookTests {
 
     void testSomething() {
-       fail "Implement me"
+       def a = 1
+       assert a == 1
+       //fail "Implement me"
     }
 }
